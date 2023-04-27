@@ -1,0 +1,405 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    scroll-behavior: smooth;
+    background-color: #f1f3f4;
+}
+.bg-body-tertiary{
+    background-color: #222223 !important;
+}
+#gig{
+    display: none;
+    bottom: 20px;
+    right: 35px;
+    position: fixed;
+    padding:10px 15px 10px 15px;
+    border: 2px solid rgb(73, 60, 60);
+    outline: none;
+    color: #fff;
+    background-color: #008080;
+    cursor: pointer;
+    z-index: 99;
+}
+.logo{
+    width: 100px;
+}
+.navbar-brand{
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+}
+.navbar-brand:hover{
+    color: rgb(64, 117, 233);
+}
+.navbar-nav .nav-link.active{
+    color: #66fcf1;
+}
+.nav-link{
+    color: #fff;
+    font-weight: bold;
+}
+.navbar-toggler{
+    color: #66fcf1 !important;
+    background-color:#66fcf1;
+}
+.nav-link:hover{
+    color: #66fcf1;
+}
+.nav-item{
+    padding-left: 30px;
+}
+.collapse{
+    padding-left: 40px;
+}
+.btn-1{
+    color:#fff;
+    font-weight: bold;
+    border:2px solid #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    transition: 0.5s;
+}
+.btn-1:hover{
+    background-color: #fff;
+    color: #00d084;
+}
+/* media query for responsive nav ul */
+@media(max-width:1000px){
+    .nav-item{
+        padding-left:0;
+    }
+}
+.carousel-item{
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position:center;
+}
+.carousel-item img{
+    width: 100%;
+    height: 90vh;
+}
+/* media query for  carousel hidden */
+@media(max-width:780px){
+    .carousel.slide{
+        display: none;
+    }
+}
+/* Section for the booking appoinment form */
+.dent-appoinment{
+    width: 88%;
+    height: auto;
+    margin: auto;
+}
+.rows{
+    display: flex;
+    padding-top: 80px;
+}
+.cols-1{
+    width: 50%;
+    height: auto;
+    background-color: #008080;
+}
+.details{
+    width: 90%;
+    color: #fff;
+    margin: auto;
+    align-items: center;
+    padding: 200px 0 200px 0;
+}
+.details h1{
+    font-size: 45px;
+   padding: 10px 0 20px 0;
+}
+.details p{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.cols-2{
+    width: 50%;
+    background-color: #dbeaf1;
+}
+.form-input{
+    width: 80%;
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+.head-title{
+    text-align: center;
+}
+.head-title h2{
+    color: #008080;
+    font-size: 19px;
+    padding: 40px 0 40px 0;
+}
+.n-nm p{
+    font-size: 15px;
+    color: #818181;
+    padding-bottom: 20px;
+}
+.n-nm p label{
+    padding-bottom: 10px;
+}
+.n-nm p input{
+    width: 100%;
+    padding: 10px 0 10px 5px;
+    border:1px solid #008080;
+    outline: none;
+    border-radius: 5px;
+}
+.n-nm p input:focus{
+    border: none;
+}
+.date{
+    width: 80%;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.date p{
+    padding-right: 20px;
+}
+.date p label{
+    font-size: 15px;
+    color: #818181;
+    padding-bottom: 20px;
+}
+.date p input{
+    width: 100%;
+    padding: 10px 0 10px 5px;
+    border:1px solid #008080;
+    outline: none;
+    border-radius: 5px;
+}
+.btn-2{
+    background-color: #008080;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.btn-2:hover,.btn-2:focus {
+    box-shadow: inset -5.5em 0 0 0 #fff,inset 5.5em 0 0 0 #fff; 
+    color: #000;
+    border: 1px solid #008080; 
+}
+/* media query for responsive form section */
+@media(max-width:780px){
+    .rows{
+        display: block;
+    }
+    .cols-1{
+        width: 100%;
+    }
+    .details{
+        padding: 20px 0 20px 0;
+    }
+    .details h1{
+        font-size: 40px;
+    }
+    .details p{
+        font-size: 16px;
+    }
+    .cols-2{
+        width: 100%;
+    }
+}
+/* Css for the about section */
+.cols-1 img{
+    width: 100%;
+    height: 100%;
+}
+.con{
+    width: 90%;
+    margin-left: auto;
+    padding: 40px 0 40px 0;
+}
+.con h3{
+    color: #008080;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.con h1{
+    font-size: 42px;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+}
+.con p{
+    font-size: 17px;
+    color:#222223;
+    padding-bottom: 40px;
+}
+.content-about{
+    padding: 40px 0 40px 0;
+}
+.content-about h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.content-about p{
+    color: #818181;
+    line-height: 1.6;
+    padding: 30px 0 0 0;
+}
+.quotes{
+    text-align: center;
+}
+.quotes p{
+    color: #222223;
+    text-shadow: 0 0 2px #008080;
+}
+@media(max-width:780px){
+    .cols-1 img{
+        width: 100%;
+    }
+}
+/* css for the Services section */
+.serv-head{
+    text-align: center;
+}
+.serv-head h3{
+    color: #008080;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.serv-head h1{
+    padding: 10px 0 30px 0;
+}
+.serv-del{
+    padding: 20px 0 60px 0;
+}
+.serv-bt{
+    text-align: center;
+    padding: 10px 0 30px 0;
+}
+.card-img-top{
+    width: 90% !important;
+    margin: auto;
+}
+/* Css for the footer top section */
+.footer{
+    width: 100%;
+    height: auto;
+}
+.ft-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #008080;
+    padding: 50px 0 50px 0;
+    align-items: center;
+}
+.clinic-timing .far{
+    background-color: #fff;
+    padding: 12px 15px 12px 15px;
+    border-radius: 50%;
+    color: #008080;
+}
+.clinic-timing p{
+    color: #fff;
+    float: right;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.clinic-add .fas{
+    background-color: #fff;
+    padding: 12px 15px 12px 15px ;
+    border-radius: 50%;
+    color: #008080;
+}
+.clinic-add p{
+    color: #fff;
+    float: right;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* media query for responsive footer */
+@media(max-width:780px){
+    .ft-top{
+        display: block;
+        text-align: center;
+    }
+    .clinic-timing p{
+        float:none;
+        padding-top: 10px;
+        line-height: 1.8;
+    }
+    .clinic-add p{
+        float:none;
+        padding-top: 10px;
+        line-height: 1.8;
+    }
+    .clinic-appoin{
+        padding-top: 20px;
+    }
+}
+/* css for the block bg footer */
+.ft{
+    width: 100%;
+    background-color: #222223;
+}
+.ft-middle{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 0 20px 0;
+}
+.clinic-info{
+    width: 40%;
+    color: #fff;
+    padding: 30px 0 30px 0;
+}
+.clinic-info p{
+    padding: 20px 0 20px 0;
+    line-height: 1.8;
+    font-size: 17px; 
+}
+.clinic-address{
+    width:40%;
+    color: #fff;
+    padding: 50px 0 0 0;
+}
+.clinic-address p{
+    line-height: 1.8;
+    font-size: 17px;
+}
+.ft-bottom{
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+.ft-bottom p{
+    color: #fff;
+}
+/* media query for responsive footer */
+@media(max-width:700px){
+   .ft-middle{
+       display: block;
+   }
+   .clinic-info {
+       width: 100%;
+       padding-bottom: 10px;
+   }
+   .clinic-info p{
+       font-size: 15px;
+   }
+   .clinic-address{
+       width: 100%;
+       padding-top: 10px;
+   }
+   .clinic-address p{
+    font-size: 15px;
+   }
+   .ft-bottom p{
+       font-size: 14px;
+   }
+}
